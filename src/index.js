@@ -48,10 +48,14 @@ function attacher(options = {}) {
         lineOptions,
       })
 
-      code.properties.dataLanguage = lang
+      //This would add to <pre>
+      //code.properties.dataLanguage = lang
 
       parent.properties = code.properties
       parent.children = code.children
+
+      // This would add to <code>
+      code.children[0].properties.dataLanguage = lang
     }
   }
 }

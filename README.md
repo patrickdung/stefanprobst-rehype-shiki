@@ -1,5 +1,15 @@
 # `rehype-shiki`
 
+This repository is cloned from
+[@stefanprobst](https://github.com/stefanprobst/rehype-shiki).
+
+Changes made:
+
+- To add back data-language to <code> after syntax highlighting conversion.
+
+Below readme is cloned and left unmodified (note the change of npm package name
+and etc is not reflected).
+
 Highlight code blocks in html with [`shiki`](https://github.com/shikijs/shiki).
 
 ## How to install
