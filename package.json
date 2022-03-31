@@ -80,7 +80,6 @@
   "prettier": "@stefanprobst/prettier-config",
   "simple-git-hooks": {
     "commit-msg": "yarn commitlint --edit",
-    "pre-commit": "yarn lint-staged",
-    "pre-push": "yarn run validate"
+    "pre-commit": "yarn lint-staged"
   }
 }
