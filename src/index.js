@@ -48,6 +48,8 @@ function attacher(options = {}) {
         lineOptions,
       })
 
+      code.properties.dataLanguage = lang
+
       parent.properties = code.properties
       parent.children = code.children
     }
